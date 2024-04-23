@@ -22,9 +22,9 @@ To run the script, use the following command format:
 
 python part1.py <JSON-RPC endpoint> <SQLite file> <block range>
 
-- <JSON-RPC endpoint>: The JSON-RPC endpoint to call an Ethereum client.
-- <SQLite file>: The path to the SQLite database file to write the transactions to.
-- <block range>: The range of Ethereum blocks to retrieve transactions from, specified as <start>-<end>.
+- <JSON-RPC endpoint\>: The JSON-RPC endpoint to call an Ethereum client.
+- <SQLite file\>: The path to the SQLite database file to write the transactions to.
+- <block range\>: The range of Ethereum blocks to retrieve transactions from, specified as <start>-<end>.
 
 Example: python part1.py https://rpc.example.com ethereum_transactions.db 100-200
 
@@ -41,7 +41,7 @@ To run the script, use the following command format:
 
 python part2.py <SQLite file> <start_time> <end_time> <output_file>
 
-- <SQLite file> : The path to the SQLite database file containing the transactions.
+- <SQLite file\> : The path to the SQLite database file containing the transactions.
 - <start_time> : The start time of the time frame to analyze (format: "YYYY-MM-DD HH:MM:SS").
 - <end_time> : The end time of the time frame to analyze (format: "YYYY-MM-DD HH:MM:SS").
 - <output_file> : The path to the output file to write the analysis results to.

@@ -48,7 +48,7 @@ python part2.py <SQLite file> <start_time> <end_time> <output_file>
 
 Example: python part2.py ethereum_transactions.db "2024-01-01 00:00:00" "2024-01-01 00:30:00" output.txt
 
-Additional Notes:
+## Additional Notes:
 
 - Ensure that you have proper permissions to write to the SQLite file and that the JSON-RPC endpoint is accessible.
 - The scripts provide error handling for common issues such as incorrect command-line arguments or failed API requests.

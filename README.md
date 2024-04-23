@@ -41,10 +41,10 @@ To run the script, use the following command format:
 
 python part2.py <SQLite file> <start_time> <end_time> <output_file>
 
-- <SQLite file>: The path to the SQLite database file containing the transactions.
-- <start_time>: The start time of the time frame to analyze (format: "YYYY-MM-DD HH:MM:SS").
-- <end_time>: The end time of the time frame to analyze (format: "YYYY-MM-DD HH:MM:SS").
-- <output_file>: The path to the output file to write the analysis results to.
+- <SQLite file> : The path to the SQLite database file containing the transactions.
+- <start_time> : The start time of the time frame to analyze (format: "YYYY-MM-DD HH:MM:SS").
+- <end_time> : The end time of the time frame to analyze (format: "YYYY-MM-DD HH:MM:SS").
+- <output_file> : The path to the output file to write the analysis results to.
 
 Example: python part2.py ethereum_transactions.db "2024-01-01 00:00:00" "2024-01-01 00:30:00" output.txt
 

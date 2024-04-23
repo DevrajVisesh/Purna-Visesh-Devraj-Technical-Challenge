@@ -16,7 +16,7 @@ Python 3.x
 requests library
 SQLite3
 
-# Usage
+## Usage
 
 To run the script, use the following command format:
 
@@ -35,7 +35,7 @@ Dependencies:
 Python 3.x
 SQLite3
 
-# Usage
+## Usage
 
 To run the script, use the following command format:
 

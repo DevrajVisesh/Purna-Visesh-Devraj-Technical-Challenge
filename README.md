@@ -16,15 +16,15 @@ Python 3.x
 requests library
 SQLite3
 
-# Usage
+## Usage
 
 To run the script, use the following command format:
 
-python part1.py <JSON-RPC endpoint> <SQLite file> <block range>
+python part1.py <JSON-RPC endpoint\> <SQLite file\> <block range\>
 
-- <JSON-RPC endpoint>: The JSON-RPC endpoint to call an Ethereum client.
-- <SQLite file>: The path to the SQLite database file to write the transactions to.
-- <block range>: The range of Ethereum blocks to retrieve transactions from, specified as <start>-<end>.
+- <JSON-RPC endpoint\>: The JSON-RPC endpoint to call an Ethereum client.
+- <SQLite file\>: The path to the SQLite database file to write the transactions to.
+- <block range\>: The range of Ethereum blocks to retrieve transactions from, specified as <start>-<end>.
 
 Example: python part1.py https://rpc.example.com ethereum_transactions.db 100-200
 
@@ -35,20 +35,20 @@ Dependencies:
 Python 3.x
 SQLite3
 
-# Usage
+## Usage
 
 To run the script, use the following command format:
 
-python part2.py <SQLite file> <start_time> <end_time> <output_file>
+python part2.py <SQLite file\> <start_time> <end_time> <output_file>
 
-- <SQLite file>: The path to the SQLite database file containing the transactions.
-- <start_time>: The start time of the time frame to analyze (format: "YYYY-MM-DD HH:MM:SS").
-- <end_time>: The end time of the time frame to analyze (format: "YYYY-MM-DD HH:MM:SS").
-- <output_file>: The path to the output file to write the analysis results to.
+- <SQLite file\> : The path to the SQLite database file containing the transactions.
+- <start_time> : The start time of the time frame to analyze (format: "YYYY-MM-DD HH:MM:SS").
+- <end_time> : The end time of the time frame to analyze (format: "YYYY-MM-DD HH:MM:SS").
+- <output_file> : The path to the output file to write the analysis results to.
 
 Example: python part2.py ethereum_transactions.db "2024-01-01 00:00:00" "2024-01-01 00:30:00" output.txt
 
-Additional Notes:
+## Additional Notes:
 
 - Ensure that you have proper permissions to write to the SQLite file and that the JSON-RPC endpoint is accessible.
 - The scripts provide error handling for common issues such as incorrect command-line arguments or failed API requests.
